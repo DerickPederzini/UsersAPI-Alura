@@ -5,6 +5,7 @@ namespace UserAPI.Data.DTOs
     public class CreateUserDTO
     {
 
+        //even though the identityUser class has other values, they are nullabe, we are only using the ones below
         [Required]
         public string Username { get; set; }
         [Required]
